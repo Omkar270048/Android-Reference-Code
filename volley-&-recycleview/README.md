@@ -3,9 +3,9 @@
 implementation 'com.android.volley:volley:1.1.0'
 
 <h2>User Permission</h2><br>
-```
+<mark>
 <uses-permission android:name="android.permission.INTERNET" />
-```
+</mark>
 <br>
 <h3> adding recycle view to layout</h3>
 ```

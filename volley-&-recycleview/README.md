@@ -7,7 +7,7 @@ implementation 'com.android.volley:volley:1.1.0'
 
 </br>
 <h3> adding recycle view to layout</h3>
-```
+```xml
         <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@ implementation 'com.android.volley:volley:1.1.0'
         <androidx.recyclerview.widget.RecyclerView/>
 
 ```
-<br>
+</br>
 <h3> Customise recycle view in new layout file (Example: item_design.xml, cardview.xml)</h3>
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

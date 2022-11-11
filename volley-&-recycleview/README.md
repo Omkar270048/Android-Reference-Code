@@ -14,7 +14,7 @@ implementation 'com.android.volley:volley:1.1.0'
         android:id="@+id/recycle_view"/>
        
         <androidx.recyclerview.widget.RecyclerView/>
-```
+``` ```
 <br>
 <h3> Customise recycle view in new layout file (Example: item_design.xml, cardview.xml)</h3>
 ```

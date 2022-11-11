@@ -43,4 +43,4 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 ```
 
 <h2>***Note***</h2>
-<i>implement SensorEventListener to the class where program for sensor is written</i>
+implement <i>SensorEventListener</i> to the class where program for sensor is written

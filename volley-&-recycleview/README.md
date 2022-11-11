@@ -1,11 +1,12 @@
-<h1>Volley and Recycleview</h1></br>
-<h2>dependencies for volly</h2></br>
-implementation 'com.android.volley:volley:1.1.0'
+<h1>Volley and Recycleview</h1>
+<h2>dependencies for volly</h2>
+```implementation 'com.android.volley:volley:1.1.0'```
 
-<h2>User Permission</h2></br>
-&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+<h2>User Permission</h2>
+```xml
+<uses-permission android:name="android.permission.INTERNET">
+```
 
-</br>
 <h3> adding recycle view to layout</h3>
 ```xml
         <androidx.recyclerview.widget.RecyclerView

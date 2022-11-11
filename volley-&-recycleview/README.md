@@ -9,6 +9,7 @@ implementation 'com.android.volley:volley:1.1.0'
 ```
 
 <h3> adding recycle view to layout</h3>
+
 ```xml
         <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -16,10 +17,11 @@ implementation 'com.android.volley:volley:1.1.0'
         android:id="@+id/recycle_view">
        
         <androidx.recyclerview.widget.RecyclerView/>
-
 ```
+
 </br>
 <h3> Customise recycle view in new layout file (Example: item_design.xml, cardview.xml)</h3>
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -68,6 +70,7 @@ implementation 'com.android.volley:volley:1.1.0'
 
 <br>
 <h3> Creating Model.java file to populate our Arraylist (for this program array list is present in MainActivity.java</h3>
+
 ```java
 public class Model {
     private String id, title, body;
@@ -93,7 +96,8 @@ public class Model {
 
 <br>
 <h3> Creating Custom addapter for recycle view</h3>
-``` ```
+
+```
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private ArrayList<Model> modelArrayList;
     private Context context;
@@ -138,10 +142,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 }
 
 ```
-```
+
 <br>
 <h3> Calling api</h3>
-``` ```
+
+``` 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private Adapter adapter;

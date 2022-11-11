@@ -13,7 +13,7 @@ implementation 'com.android.volley:volley:1.1.0'
         android:layout_height="wrap_content"
         android:id="@+id/recycle_view"/>
        
-        <androidx.recyclerview.widget.RecyclerView/>;
+        <androidx.recyclerview.widget.RecyclerView/>
 ```
 <br>
 <h3> Customise recycle view in new layout file (Example: item_design.xml, cardview.xml)</h3>
@@ -149,7 +149,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.recycle_view);
 
-//        new longRunningTask().execute();
         RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
         JsonArrayRequest jsonObjectRequest = new JsonArrayRequest(Request.Method.GET, "https://jsonplaceholder.typicode.com/posts", null,
                 new Response.Listener<JSONArray>() {
@@ -179,7 +178,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         requestQueue.add(jsonObjectRequest);
-//        return "progress finished";
         recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
         adapter = new Adapter(modelArrayList, MainActivity.this);
         recyclerView.setAdapter(adapter);

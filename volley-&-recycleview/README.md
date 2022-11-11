@@ -7,7 +7,7 @@ implementation 'com.android.volley:volley:1.1.0'
 
 <br>
 <h3> adding recycle view to layout</h3>
-`
+`xml
 <myxml>
         <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

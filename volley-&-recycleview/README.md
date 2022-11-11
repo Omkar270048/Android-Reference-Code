@@ -149,7 +149,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 <br>
 <h3> Calling api</h3>
 
-``` 
+```java
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private Adapter adapter;

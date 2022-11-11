@@ -1,21 +1,20 @@
-<h1>Volley and Recycleview</h1><br>
-<h2>dependencies for volly</h2><br>
+<h1>Volley and Recycleview</h1></br>
+<h2>dependencies for volly</h2></br>
 implementation 'com.android.volley:volley:1.1.0'
 
-<h2>User Permission</h2><br>
+<h2>User Permission</h2></br>
 &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
 
-<br>
+</br>
 <h3> adding recycle view to layout</h3>
-```xml
-<myxml>
+```
         <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recycle_view"/>
+        android:id="@+id/recycle_view">
        
         <androidx.recyclerview.widget.RecyclerView/>
-</myxml>
+
 ```
 <br>
 <h3> Customise recycle view in new layout file (Example: item_design.xml, cardview.xml)</h3>

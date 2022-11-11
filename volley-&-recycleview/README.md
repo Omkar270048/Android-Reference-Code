@@ -1,8 +1,9 @@
 <h1>Volley and Recycleview</h1>
 <h2>dependencies for volly</h2>
-```implementation 'com.android.volley:volley:1.1.0'```
+implementation 'com.android.volley:volley:1.1.0'
 
 <h2>User Permission</h2>
+
 ```xml
 <uses-permission android:name="android.permission.INTERNET">
 ```

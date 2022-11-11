@@ -1,8 +1,7 @@
 <h1>Volley and Recycleview</h1><br>
-<h2>dependencies</h2><br>
+<h2>dependencies for volly</h2><br>
 ```
-//    volley
-    implementation 'com.android.volley:volley:1.1.0'
+implementation 'com.android.volley:volley:1.1.0'
 ```
 <h2>User Permission</h2><br>
 ```

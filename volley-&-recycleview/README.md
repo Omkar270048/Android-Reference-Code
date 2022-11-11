@@ -97,7 +97,7 @@ public class Model {
 <br>
 <h3> Creating Custom addapter for recycle view</h3>
 
-```
+```java
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private ArrayList<Model> modelArrayList;
     private Context context;

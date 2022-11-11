@@ -1,6 +1,9 @@
 <h1>Volley and Recycleview</h1>
 <h2>dependencies for volly</h2>
+
+```gradle
 implementation 'com.android.volley:volley:1.1.0'
+```
 
 <h2>User Permission</h2>
 

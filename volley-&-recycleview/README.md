@@ -90,7 +90,7 @@ public class Model {
 
 <br>
 <h3> Creating Custom addapter for recycle view</h3>
-```
+``` ```
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private ArrayList<Model> modelArrayList;
     private Context context;
@@ -135,10 +135,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 }
 
 ```
-
+```
 <br>
 <h3> Calling api</h3>
-```
+``` ```
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private Adapter adapter;
